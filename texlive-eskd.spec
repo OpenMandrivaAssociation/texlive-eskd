@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/eskd
+# catalog-date 2007-02-14 08:57:40 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-eskd
 Version:	20070214
 Release:	1
@@ -46,6 +52,7 @@ available on CTAN are required for use of the class.
 #- source
 %doc %{_texmfdistdir}/source/latex/eskd/eskd.dtx
 %doc %{_texmfdistdir}/source/latex/eskd/eskd.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ available on CTAN are required for use of the class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
