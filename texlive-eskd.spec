@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-eskd
 Version:	20070214
-Release:	4
+Release:	5
 Summary:	Modern Russian typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eskd
