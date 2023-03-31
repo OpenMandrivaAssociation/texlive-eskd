@@ -1,6 +1,6 @@
 Name:		texlive-eskd
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Modern Russian typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eskd
